@@ -128,7 +128,7 @@ describe('toggleTask', () => {
 
     const result = deleteTask(tasks, 'nonexistent');
 
-    expect(result).toHaveLength(20);
+    expect(result).toHaveLength(2);
   });
 });
 
