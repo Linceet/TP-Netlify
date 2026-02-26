@@ -9,7 +9,7 @@ import {
   loadTasks,
 } from '../taskHelpers';
 
-/*describe('createTask', () => {
+describe('createTask', () => {
   it('creates a task with the given title', () => {
     const title = 'Buy groceries';
 
@@ -49,7 +49,7 @@ import {
     expect(task.createdAt).toBeDefined();
     expect(new Date(task.createdAt).getTime()).not.toBeNaN();
   });
-});*/
+});
 
 describe('toggleTask', () => {
   it('toggles a task from incomplete to complete', () => {
